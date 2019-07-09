@@ -6,6 +6,13 @@ log_file=./install_progress_log.txt
 sudo apt-get update
 
 # programs
+sudo apt-get -y install vim
+if type -p vim > /dev/null; then
+  echo "vim install SUCCEEDED" >> $log_file
+else
+  echo "vim install FAILED" >> $log_file
+fi
+
 sudo apt-get -y install tmux
 if type -p tmux > /dev/null; then
   echo "tmux install SUCCEEDED" >> $log_file
