@@ -5,6 +5,10 @@ log_file=./install_progress_log.txt
 
 sudo apt-get update
 
+# dotfile sync
+ln -svf ~/dotfiles/.vimrc ~ >> $log_file
+
+
 # programs
 sudo apt-get -y install vim
 if type -p vim > /dev/null; then
