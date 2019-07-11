@@ -6,7 +6,9 @@ dotfile symlinks
 
 - .gitconfig
 - .gitignore
-- .vimrv
+- .vimrc
+- .vim
+- .vim/ale
 - .bash_logout
 - .bash_profile
 - .bashrc
