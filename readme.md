@@ -13,7 +13,10 @@ dotfile symlinks
 - .bash_profile
 - .bashrc
 - .tmux.conf
+- .vim
+- .ssh
 
 ## Reference
 - https://github.com/jondot/awesome-devenv
 - https://dotfiles.github.io/
+- https://github.com/github/gitignore
