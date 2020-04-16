@@ -15,7 +15,7 @@ dotfile symlinks
 - .tmux.conf
 - .vim
 - .ssh
-
+- ~./ssh/config
 ## Reference
 - https://github.com/jondot/awesome-devenv
 - https://dotfiles.github.io/
