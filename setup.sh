@@ -73,10 +73,10 @@ function install_packages(){
 }
 
 function dotfiles_symlink(){
-  ln -sv ~/dotfiles/.vimrc ~ >> $log_file
-  ln -sv ~/dotfiles/.gitignore_global ~ >> $log_file
-    git config --global core.excludesfile ~/.gitignore_global >> $log_file
-  ln -sv ~/dotfiles/.bash_profile ~ >> $log_file
+  ln -svf ~/dotfiles/.vimrc ~ >> $log_file
+  ln -svf ~/dotfiles/.gitignore_global ~ >> $log_file
+  ln -svf ~/dotfiles/.bash_profile ~ >> $log_file
+  ln -svf ~/dotfiles/.gitconfig ~ >> $log_file
 }
 
 function verbose_log(){

@@ -2,18 +2,15 @@
 
 ## TBD
 dotfile symlinks
-`ln -sv ^s~/dotfiles/.tmux.conf^t ~
+`ln -svf ~/dotfiles/.tmux.conf ~`
 
 - .gitconfig
-- .gitignore
-- .vimrc
-- .vim
-- .vim/ale
 - .bash_logout
 - .bash_profile
 - .bashrc
 - .tmux.conf
 - .vim
+
 ## Reference
 - https://github.com/jondot/awesome-devenv
 - https://dotfiles.github.io/
