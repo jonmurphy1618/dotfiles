@@ -77,6 +77,7 @@ function dotfiles_symlink(){
   ln -svf ~/dotfiles/.gitignore_global ~ >> $log_file
   ln -svf ~/dotfiles/.bash_profile ~ >> $log_file
   ln -svf ~/dotfiles/.gitconfig ~ >> $log_file
+  ln -svf ~/dotfiles/.tmux.conf ~ >> $log_file
 }
 
 function verbose_log(){

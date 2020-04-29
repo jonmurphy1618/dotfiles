@@ -1,15 +1,9 @@
 ## Dotfiles
+Dotfiles are a quick and easy method to save configurations and aliases.
 
-## TBD
-dotfile symlinks
-`ln -svf ~/dotfiles/.tmux.conf ~`
-
-- .gitconfig
-- .bash_logout
-- .bash_profile
-- .bashrc
-- .tmux.conf
-- .vim
+### TBD
+dotfile symlinks example
+`ln -svf ~/dotfiles/.bash_profile ~`
 
 ## Reference
 - https://github.com/jondot/awesome-devenv
