@@ -1,6 +1,8 @@
 ## Dotfiles
 Dotfiles are a quick and easy method to save configurations and aliases.
 
+Run `setup.sh` and follow the prompts. Includes ssh key reminder, package installs, dotfile symlinks, and docker install.
+
 dotfile symlinks example
 `ln -svf ~/dotfiles/.bash_profile ~`
 

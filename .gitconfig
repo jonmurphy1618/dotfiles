@@ -2,6 +2,6 @@
 [user]
 # Please adapt and uncomment the following lines:
 #	name = murphy
-#	email = murphy@jonmurphy.info
+#	email = git@jonmurphy.info
 [core]
 	excludesfile =~/.gitignore_global
