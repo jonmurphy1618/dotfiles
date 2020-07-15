@@ -75,5 +75,6 @@ fi
 # Aliases
 # alias alias_name="command_to_run"
 alias ll="ls -lah --color=auto"
+alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 
